@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Responsive-Ui/static/css/main.6f7f9a51.css",
+    "main.js": "/Responsive-Ui/static/js/main.a6c73d05.js",
+    "index.html": "/Responsive-Ui/index.html",
+    "main.6f7f9a51.css.map": "/Responsive-Ui/static/css/main.6f7f9a51.css.map",
+    "main.a6c73d05.js.map": "/Responsive-Ui/static/js/main.a6c73d05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f7f9a51.css",
+    "static/js/main.a6c73d05.js"
+  ]
+}
