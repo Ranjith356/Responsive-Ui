@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import CenterColoumTopnav from "./Ui/CenterColoumTopnav";
+import FinalUi from "./Ui/FinalUi";
+import FooterCart from "./Ui/FooterCart";
+import Navigation from "./Ui/Navigation";
+import Thirdcartui from "./Ui/Thirdcartui";
+import TopCart from "./Ui/TopCart";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Navigation />
+        <CenterColoumTopnav />
+        <TopCart />
+        <Thirdcartui />
+        <FooterCart />
+        <FinalUi />
+      </div>
+    </>
   );
 }
 
